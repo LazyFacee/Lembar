@@ -1,0 +1,13 @@
+{
+  "name": "lembar",
+  "version": "1.0.0",
+  "description": "Alat PDF pribadi yang berjalan 100% di browser. Private PDF toolkit that runs 100% in your browser.",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "node build.mjs" },
+  "dependencies": {
+    "jszip": "3.10.1",
+    "pdf-lib": "1.17.1",
+    "pdfjs-dist": "3.11.174"
+  }
+}
